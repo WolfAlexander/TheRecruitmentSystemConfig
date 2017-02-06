@@ -21,3 +21,4 @@ zuul:
   routes:
     testservice:
       path: /test/**
+  prefix: /api
