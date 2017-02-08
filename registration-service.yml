@@ -8,3 +8,11 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://192.168.99.100:9090/eureka/
+
+spring:
+    datasource:
+        url:  jdbc:mysql://gortz.org:6603/recruitmentsystem?useSSL=false
+        username: server
+        password: cf1e8c14e54505f60aa10ceb8d5d8ab3
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        initialize: false
