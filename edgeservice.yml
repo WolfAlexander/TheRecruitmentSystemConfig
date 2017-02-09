@@ -19,6 +19,6 @@ endpoints:
 
 zuul:
   routes:
-    testservice:
-      path: /test/**
+    registration-service:
+      path: /registerservice/**
   prefix: /api
