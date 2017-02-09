@@ -20,5 +20,6 @@ endpoints:
 zuul:
   routes:
     registration-service:
-      path: /registerservice/**
+        serviceId: registration-service
+        path: /registerservice/**
   prefix: /api
