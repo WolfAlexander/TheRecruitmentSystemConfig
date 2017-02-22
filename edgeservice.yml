@@ -22,4 +22,7 @@ zuul:
     registration-service:
         serviceId: registration-service
         path: /registerservice/**
+    auth-service:
+        serviceId: auth-service
+        path: /auth/login
   prefix: /api
