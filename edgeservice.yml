@@ -1,6 +1,12 @@
 server:
   port: 8080
   
+  ssl:
+    key-store: ${ssl.key.location}
+    key-store-password: ${ssl.key.secret}
+    keyStoreType: ${ssl.key.type}
+    keyAlias: ${ssl.key.alias}
+  
 eureka:
   instance:
       leaseRenewalIntervalInSeconds: 1
