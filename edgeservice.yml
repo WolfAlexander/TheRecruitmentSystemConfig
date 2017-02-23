@@ -28,6 +28,9 @@ zuul:
     registration-service:
         serviceId: registration-service
         path: /registerservice/**
+        ribbon:
+            ServerListRefreshInterval: 1000
+        
     auth-service:
         serviceId: auth-service
         path: /auth/login
