@@ -32,4 +32,6 @@ zuul:
     auth-service:
         serviceId: auth-service
         path: /auth/login
+        ribbon:
+            ServerListRefreshInterval: 1000
   prefix: /api
