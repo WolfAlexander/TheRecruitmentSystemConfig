@@ -15,6 +15,10 @@ spring:
         password: cf1e8c14e54505f60aa10ceb8d5d8ab3
         driver-class-name: com.mysql.cj.jdbc.Driver
         initialize: false
+    jackson:
+      serialization:
+         INDENT_OUTPUT: true
+
 
 ---
 # Properties in case developer is using Docker Toolbox
