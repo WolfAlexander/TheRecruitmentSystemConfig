@@ -1,0 +1,9 @@
+server:
+  port: 9090
+
+eureka:
+  server:
+    evictionIntervalTimerInMs: 1000
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
