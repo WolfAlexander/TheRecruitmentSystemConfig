@@ -1,5 +1,5 @@
 server:
-  port: 8080
+  port: 8585
   
   ssl:
     key-store: ${ssl.key.location}
