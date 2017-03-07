@@ -32,6 +32,10 @@ zuul:
     auth-service:
         serviceId: auth-service
         path: /auth/login
+        
+    jobapplication-service:
+        serviceId: jobapplication-service
+        path: /jobapplication/**
   prefix: /api
   
   
