@@ -36,7 +36,7 @@ zuul:
     jobapplication-service:
         serviceId: jobapplication-service
         path: /jobapplication/**
-        sensitiveHeaders: Authorization
+  sensitive-headers: Authorization
 
   prefix: /api
   
