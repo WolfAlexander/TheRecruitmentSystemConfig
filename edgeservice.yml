@@ -6,6 +6,15 @@ server:
     key-store-password: ${ssl.key.secret}
     keyStoreType: ${ssl.key.type}
     keyAlias: ${ssl.key.alias}
+
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 10000
   
 eureka:
   instance:
