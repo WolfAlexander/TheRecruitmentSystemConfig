@@ -1,6 +1,6 @@
 # Default properties
 server:
-  port: 9898
+  port: ${PORT:9898}
 spring:
   jackson:
     serialization:
