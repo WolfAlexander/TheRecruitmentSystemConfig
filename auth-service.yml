@@ -11,7 +11,7 @@ eureka:
       leaseExpirationDurationInSeconds: 2
   client:
     serviceUrl:
-      defaultZone: http://192.168.99.100:9090/eureka/
+      defaultZone: http://localhost:9090/eureka/
 
 ---
 # Properties in case developer is using Docker Toolbox
